@@ -13,7 +13,17 @@
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
-
+  
+  header.row { margin-bottom: 20px; padding: 20px 0; border-bottom: 1px solid #ddd; }
+  header h1 { font-size: 32px; font-size: 3.2rem; text-transform: uppercase; text-align: center; margin: 0; padding: 10px 0; line-height: 1; }
+  header h5 { font-size: 13px; font-size: 1.3rem; color: #999; font-weight: bold; text-transform: uppercase; margin: 0; padding: 0; line-height: 1; text-align: center; }
+  
+  @media only screen and (max-width: 767px) { 
+    header.row { padding: 10px 0; }
+    header h1 { padding: 5px 0; }
+  }
+  
+  .square-links li a { display: block; color: #fff; background: #2a85e8; height: 70px; font-weight: bold; text-transform: uppercase; padding: 60px 8px 8px; }
 
 
 /* -----------------------------------------
